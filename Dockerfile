@@ -5,9 +5,9 @@ RUN apt-get update && apt-get install -y \
     libcurl4 \
     wget \
     && rm -rf /var/lib/apt/lists/* \
-    && wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.72.01.zip \
-    && unzip bedrock-server-1.19.72.01.zip \
-    && rm -f bin-linux/bedrock-server-1.19.72.01.zip \
+    && wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.1.02.zip \
+    && unzip bedrock-server-1.20.1.02.zip \
+    && rm -f bin-linux/bedrock-server-1.20.1.02.zip \
     && apt-get remove unzip -y \
     && rm -rf /var/lib/apt/lists/*
 
