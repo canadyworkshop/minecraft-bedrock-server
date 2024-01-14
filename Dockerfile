@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     && rm -rf /var/lib/apt/lists/* \
     && wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.51.01.zip \
-    && unzip bedrock-server-1.20.41.02.zip \
+    && unzip bedrock-server-1.20.51.01.zip \
     && rm -f bin-linux/bedrock-server-1.20.51.01.zip \
     && apt-get remove unzip -y \
     && rm -rf /var/lib/apt/lists/*
