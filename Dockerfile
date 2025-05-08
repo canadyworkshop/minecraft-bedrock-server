@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
     libcurl4 \
     wget \
     && rm -rf /var/lib/apt/lists/* \
-    && wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.21.80.3.zip \
+    && wget https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.80.3.zip \
     && unzip bedrock-server-1.21.30.03.zip \
     && rm -f bin-linux/bedrock-server-1.21.80.3.zip \
     && apt-get remove unzip -y \
