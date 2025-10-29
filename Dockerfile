@@ -5,11 +5,12 @@ RUN apt-get update && apt-get install -y \
     libcurl4 \
     wget2 \
     && rm -rf /var/lib/apt/lists/* \
-    && wget2 https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.114.1.zip \
-    && unzip bedrock-server-1.21.114.1.zip \
-    && rm -f bedrock-server-1.21.114.1.zip \
+    && wget2 https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.120.4.zip \
+    && unzip bedrock-server-1.21.120.4.zip \
+    && rm -f bedrock-server-1.21.120.4.zip \
     && apt-get remove unzip -y \
     && rm -rf /var/lib/apt/lists/*
+
 
 ARG LD_LIBRARY_
 
